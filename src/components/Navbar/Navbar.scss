@@ -1,0 +1,38 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap:30%;
+    color: rgb(153, 148, 148);
+    font-size: 1.1rem;
+    position: fixed;
+    z-index: 10;
+    cursor: pointer; 
+    background-color: transparent;
+
+
+    .navbar-tabs {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      .active-tab {
+        color: #fff;
+        padding: 10px;
+        border-bottom: 3px solid rgb(215, 8, 8);
+      }
+      .login {
+        background-color: rgb(215, 8, 8);
+        padding: 5px 10px 10px 10px;
+        border-radius: 7px;
+      }
+
+      div {
+        &:hover {
+          color: #fff;
+        }
+      }
+    }
+    .navbar-logo {
+      scale: 0.8;
+    }
+  }

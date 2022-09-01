@@ -1,0 +1,45 @@
+.experience {
+    margin-top: 3rem;
+    background-color: #da1f2f;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+
+    .experience-head {
+      font-size: 3.2rem;
+      font-weight: bold;
+    }
+    .experience-body {
+      margin-top: 1.2rem;
+      height: 11rem;
+      font-size: 2.2rem;
+      font-weight: 200;
+      padding: 0.5rem;
+      border-left: 4rem solid #cf777e;
+    }
+
+    .experience-facility {
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: flex-end;
+      gap: 1.5rem;
+      div {
+        width: 110px;
+        height: 110px;
+
+        text-align: center;
+        padding: 1rem;
+        background-color: #d4303e;
+        border-radius: 10px;
+        font-size: 1.2rem;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+          rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+          rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+        i {
+          font-size: 2.5rem;
+          margin: 0.5rem;
+        }
+      }
+    }
+  }
